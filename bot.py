@@ -30,15 +30,3 @@ def main():
                 json.dump(data,f, indent = 4, sort_keys = False)
 
 main()
-
-'''
-Setting up a schedule for the main function
-to be called causes an issue of starting the bot.
-
-schedule.every().day.at("12:00").do(main)
-time.sleep(10)
-
-while True:
- schedule.run_pending()
- time.sleep(1)
-'''
