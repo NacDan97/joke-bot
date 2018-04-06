@@ -1,8 +1,5 @@
 import praw
 import json
-import schedule
-import time
-import random
 import disc_run
 from redcreds import *
 
